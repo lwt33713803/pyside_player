@@ -1,0 +1,124 @@
+QPushButton[class="button_circle"] {
+    background-color: #323232;
+    border-radius: 6px;
+    width: 12px;
+    height: 12px;
+    font-size:10px;
+}
+
+QPushButton#close_btn {
+    background-color: transparent;
+    color: white;
+}
+
+QPushButton#close_btn:hover {
+    background-color: red;
+    cursor:pointer;
+}
+
+QPushButton#mini_btn {
+    background-color: transparent;
+    color: white;
+}
+
+QPushButton#mini_btn:hover {
+    background-color: #999999;
+    cursor:pointer;
+}
+
+QPushButton#fullscreen_btn {
+    background-color: grey;
+    color: white;
+}
+
+#main_window{
+    background-color: red;
+}
+
+#left_panel{
+    background: #212121;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#right_panel{
+    background: #323232;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#main_widget{
+    background: #323232;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#left_layout{
+    padding: 10px;
+}
+#open_history_widget{
+    background-color: #212121;
+    opacity:0.8;
+    border-radius:4px;
+}
+#open_history_widget:hover{
+    background-color: #111111;
+        border-radius:6px;
+}
+
+#open_widget{
+/*    background-color: #0d7377;*/
+    border:none;
+}
+
+#open_widget:hover{
+    background-color:#0d7377;
+}
+
+#open_url_widget{
+/*    background-color: #14ffec;*/
+    border:none;
+}
+
+#open_url_widget:hover{
+    background-color:#0d7377;
+}
+
+#title_open_local_hotkey{
+    font-size:12px;
+    font-weight:normal;
+        color:#ffffff;
+}
+
+#title_open_local{
+    font-size:12px;
+    font-weight:normal;
+    color:#ffffff;
+}
+
+#title_open_url{
+    font-size:12px;
+    font-weight:normal;
+        color:#ffffff;
+}
+
+#title_open_local_hotkey{
+    font-size:12px;
+    font-weight:normal;
+        color:#ffffff;
+}
+
+#title{
+    font-size:16px;font-weight:bold;
+            color:#ffffff;
+}
+
+#version{
+  color:#ffffff;
+  margin-top:10px;
+}
+
+#title_open_history_item{
+font-size:12px;font-weight:normal;
+  color:#ffffff;
+}

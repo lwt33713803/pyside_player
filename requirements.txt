@@ -1,0 +1,2 @@
+pyside6~=6.7.1
+setuptools~=69.5.1

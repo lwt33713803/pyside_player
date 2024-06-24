@@ -1,0 +1,77 @@
+#min_button:hover{
+   background-color: #cccccc;
+}
+
+#full_button:hover{
+   background-color: #cccccc;
+}
+
+#close_button:hover{
+   background-color:red;
+}
+
+#close_button{
+    background-color:transparent;
+    border:none;
+}
+
+#full_button{
+    background-color:transparent;
+    border:none;
+}
+
+#min_button{
+    background-color:transparent;
+    border:none;
+}
+
+#titleBar{
+    background-color: rgba(0,0,0,0.5);
+}
+#titlebarTitle{
+        color:white;
+}
+#controllerWidget{
+    background-color: rgba(0,0,0,0);
+}
+#controllerPanel{
+    background-color:red;
+}
+#controller_panel{
+     background-color:rgba(150,150,150,0.4);
+     border-radius:4px;
+}
+
+QSlider::groove:horizontal {
+    border: 0px solid transparent;
+    background: transparent;
+    height: 18px;
+    border-radius: 2px;
+    padding-left:0px;
+    padding-right:0px;
+}
+QSlider::sub-page:horizontal {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 2px;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+QSlider::add-page:horizontal {
+    background: rgba(244, 244, 244, 0.6);
+    border-radius: 2px;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+QSlider::handle:horizontal {
+    background:rgba(233, 233, 233, 1);
+    width: 8px;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: white;
+    width: 8px;
+    border-radius: 2px;
+}
